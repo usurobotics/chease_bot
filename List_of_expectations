@@ -1,0 +1,60 @@
+Tasks
+
+Lidar
+
+wiring working
+data transmission (ros node that reads data and transmits to a ros topic)
+slam node (building map based on lidar scans)
+LIO (slam using the imu)
+
+--end of lidar base code
+
+
+
+Realsense
+
+data transmission (ros node that transmits visual and depth data to ros topic)
+ros translation (maybe photogrammetry)
+
+-- split
+visual for realsense
+setup yolo v5 and train it on the potential comp data
+
+depth for realsense
+attempt to combine laserscan data from realsense with lidar (is probably not that important overall)
+
+
+
+IMU
+
+node for publishing imu data to LIO
+potentially combining imu data with gps but idk
+
+
+GPS
+
+node to publish gps data
+
+
+
+---- combining everything
+mapping
+
+object detection
+3 dimensional map
+gps location with direction data
+POTENTIALLY -- compare current lidar image to realsense image. if anything is too close, dont run into it
+
+need: end goal, physical object avoidance, line avoidance
+computer vision -- viewing visual objects and directing the vehicle to avoid them
+gps mapping -- recording location data from gps and imu to make an accurate movement map that can be compared to lidar scan or google map
+3D map -- lidar creates an accurate 3d map of the entire course as it traverses it. it also records its own path
+gps waypoints -- using gps to determine direction and distance based on waypoints
+
+action determiner / path identifier -- program that decides, based on all of the input, which action is the best action (works for ramp as well)
+
+
+
+
+
+
