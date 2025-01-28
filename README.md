@@ -5,4 +5,4 @@ Ch - Charting \
 E  - Electronic \
 A  - Autonomous \
 S  - System for \
-E  - Exploration \
+E  - Exploration
