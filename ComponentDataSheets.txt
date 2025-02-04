@@ -1,0 +1,6 @@
+Motors that were found in the robotics cabinet: https://motors.vex.com/vexpro-motors/mini-cim-motor
+Realsense Camera Links: 
+-Sales Page: https://www.intelrealsense.com/depth-camera-d435/
+-Documentation: https://dev.intelrealsense.com/docs/docs-get-started?_ga=2.36863464.915737159.1738633474-1042467042.1738633474
+GPS Link: https://content.u-blox.com/sites/default/files/products/documents/u-blox7-V14_ReceiverDescriptionProtocolSpec_%28GPS.G7-SW-12001%29_Public.pdf
+IMU: https://category.yahboom.net/products/imu?variant=39702304391252
